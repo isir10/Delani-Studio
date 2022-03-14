@@ -1,5 +1,5 @@
 .landing{
-  background-image: url('../images/backgrounds/h_img.jpg');
+  background-image: url('../assets/backgrounds/h_img.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -54,7 +54,7 @@
 }
 .services{
   text-align: center;
-  background-image: url("../images/backgrounds/s_image.jpg");
+  background-image: url("../assets/backgrounds/s_image.jpg");
   color: white;
   background-position: center;
   background-size: cover;
@@ -70,4 +70,118 @@
   background-color: rgba(0,0,0,0.4);
   padding-top: 10%;
   padding-bottom: 10%;
+}.what-we-do{
+  font-family: 'Quattrocento', serif;
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Gabriela', serif;
 }
+.what-we-do .headings{
+  padding-bottom: 38px;
+}
+#portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left:18%;
+  margin-right: 16%; 
+}
+.col-md-3 img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.portfolio h2{
+  text-align: center;
+  padding-top:40px;
+  font-family: 'Gabriela', serif;
+}
+#overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+  display: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(255, 255, 255, 0.456);
+  position:absolute;
+  top: 20px;
+  left: 35px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50%;
+  font-family: 'Delius Swash Caps', cursive;
+}
+@media only screen and (max-width: 755px){
+  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 16px;
+    padding-top: 20%;
+    /* font-size: 16px; */
+  }
+  .col-md-3 img{
+    width:100%px;
+    margin: 20px;
+  }
+  #portfolio{
+    margin-left:8%;
+    margin-right: 16%; 
+  }
+  @media only screen and (max-width: 425px){
+    #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+      width: 100%;
+      height: 100%;
+      top: 20px;
+      left: 16px;
+      padding-top: 20%;
+      font-size: 20px;
+    }
+    .col-md-3 img{
+      width:100%px;
+      margin: 20px;
+    }
+    #portfolio{
+      margin-left:8%;
+      margin-right: 16%; 
+    }
+    @media only screen and (min-width: 825px){
+      #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+        width: 100%;
+        height: 100%;
+        top: 20px;
+        left: 20px;
+        padding-top:30%; 
+      }
+      .col-md-3 img{
+        width: 400px;
+        margin: 20px;
+      }
+      #portfolio{
+        margin-left:10%;
+        margin-right: 10%; 
+      }
+    }
+    @media only screen and (min-width: 625px){
+      #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+        width: 100%;
+        height: 100%;
+        top: 20px;
+        left: 20px;
+        padding-top:20%; 
+        font-size: 26px;
+      }
+      .col-md-3 img{
+        width: 400px;
+        margin: 20px;
+      }
+      #portfolio{
+        margin-left:6%;
+        margin-right: 10%; 
+      }
+    }
+    footer p{
+      margin-top: 10px;
+      margin-left: 20px;
+      margin-right: 25px;
+     
+    }
