@@ -159,22 +159,37 @@
     footer p{
       margin-top: 10px;
     }
-    .contact-form {
-      background-image: url(../assets/backgrounds/c_image.jpg);
-      background-position: center center;
-      background-size: cover;
-      background-repeat: no-repeat;
+    #form{
+      background-image: url("../assets/backgrounds/c_image.jpg");
+    }
+    .input{
+      display: inline;
+    
+    }
+    #form input{
+      width:35%;
+      background-color: transparent;
+    
+    }
+    #name{
+      margin-left: 12%;
+      color :white;
+    }
+    #email{
+      margin-left:5%;
       color: white;
     }
-    input[type=text],input[type=email],{
-      background: transparent;
+    #form textarea{
+      background-color: transparent;
       color: white;
-      font-size: 20px;
-      font-family: 'Copse', serif;
+    }
+    #email::placeholder{
+      color: white;
     }
     
-    input[type=message],{
-      max-width: 100%;
-      max-height: 100%;
-      align::content; centre
+    #name::placeholder{
+      color: white;
+    }
+    textarea::placeholder{
+      color: white;
     }
