@@ -1,5 +1,5 @@
 .landing{
-  background-image: url('../images/backgrounds/h_img.jpg');
+  background-image: url('../assets/backgrounds/h_img.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,6 +27,7 @@
   margin-top: 10%;
   padding-bottom: 30px; 
   /* animation-iteration-count: infinite; */
+  
 }
 #mouse-click {
   animation: bounce 2s infinite;
@@ -54,7 +55,7 @@
 }
 .services{
   text-align: center;
-  background-image: url("../images/backgrounds/s_image.jpg");
+  background-image: url("../assets/backgrounds/s_image.jpg");
   color: white;
   background-position: center;
   background-size: cover;
@@ -70,4 +71,125 @@
   background-color: rgba(0,0,0,0.4);
   padding-top: 10%;
   padding-bottom: 10%;
+}.what-we-do{
+  font-family: 'Quattrocento', serif;
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Gabriela', serif;
 }
+.what-we-do .headings{
+  padding-bottom: 38px;
+}
+#portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left:18%;
+  margin-right: 16%; 
+}
+.col-md-3 img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.portfolio h2{
+  text-align: center;
+  padding-top:40px;
+  font-family: 'Gabriela', serif;
+}
+#overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+  display: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(255, 255, 255, 0.456);
+  position:absolute;
+  top: 20px;
+  left: 35px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  z-index: 15;
+  transition: all 0.4s ease;
+  padding-top: 50%;
+  font-family: 'Delius Swash Caps', cursive;
+}
+
+  .col-md-3 img{
+    width:100%px;
+    margin: 20px;
+  }
+  #portfolio{
+    margin-left:8%;
+    margin-right: 16%; 
+  }
+  
+    .col-md-3 img{
+      width:100%px;
+      margin: 20px;
+    }
+    #portfolio{
+      margin-left:8%;
+      margin-right: 16%; 
+    }
+    
+      .col-md-3 img{
+        width: 400px;
+        margin: 20px;
+      }
+      #portfolio{
+        margin-left:10%;
+        margin-right: 10%; 
+      }
+    }
+    
+      .col-md-3 img{
+        width: 400px;
+        margin: 20px;
+      }
+      #portfolio{
+        margin-left:6%;
+        margin-right: 10%; 
+      }
+    
+    footer{
+      text-align: center;
+      padding-top: 30px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    footer p{
+      margin-top: 10px;
+    }
+    #form{
+      background-image: url("../assets/backgrounds/c_image.jpg");
+    }
+    .input{
+      display: inline;
+    
+    }
+    #form input{
+      width:35%;
+      background-color: transparent;
+    
+    }
+    #name{
+      margin-left: 12%;
+      color :white;
+    }
+    #email{
+      margin-left:5%;
+      color: white;
+    }
+    #form textarea{
+      background-color: transparent;
+      color: white;
+    }
+    #email::placeholder{
+      color: white;
+    }
+    
+    #name::placeholder{
+      color: white;
+    }
+    textarea::placeholder{
+      color: white;
+    }
