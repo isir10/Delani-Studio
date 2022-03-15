@@ -1,5 +1,5 @@
 # {DELANI STUDIO.}
-# AUTHOR: BY, ISIR MALAK
+# AUTHOR: ISIR MALAK
 ## Description
 {The site allows the user to navigate throughout the site and see what Delani does and what they stand for. These details can be viewed when you click on the images on the "what we do" section. in case of any inquiries, the site allows the user to send in messages and an alert is issued on reception of the message.There are also images of some of the best photos th studio has taken and each has a description which disappears and appears as you hover on the images in the portfolio section}
 ## Setup/Installation Requirements
